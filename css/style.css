@@ -32,3 +32,38 @@ label{
 	font-family:"Red-Hat-Display", sans-serif;
 	
 }
+ol{
+	list-style-type: none;
+	padding:0;
+}
+
+p {
+	color:#083D77;
+	font-weight: bold;
+	font-size:15px;
+	font-family:"Red-Hat-Display", sans-serif;
+	margin-bottom:1.5rem;
+}
+input[type="submit"] {
+	border: none;
+	padding: 10px;
+	font-size: 30px;
+	font-family:"Anta";
+	background-color: #FF87AB;
+	color:#FFFD82;
+}
+input[type="email"]{
+	background-color:#00CECB;
+	color:white;
+	width:75%;
+	padding:5px;
+	border: none;
+	
+}
+input[type="checkbox"]{
+	background-color:#FF87AB;
+	padding:0;
+	border: none;
+	
+	
+}
