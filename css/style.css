@@ -12,6 +12,15 @@ body{
 	border:10px 20px;
 	max-width:550px;
 	margin:auto;
+	margin-top: 8rem;
 	padding:10px;
 	box-shadow:20px 20px #00CECB;
+}
+h1{
+	color:#FF87AB;
+	font-size:40px;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+	margin-top:1.5rem;
+    width: 90%;
 }
