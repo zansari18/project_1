@@ -65,6 +65,22 @@ input[type="checkbox"]{
 	background-color:#FF87AB;
 	padding:0;
 	border: none;
+	margin-bottom:1rem;
 	
 	
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  #content {
+    padding: 15px;
+
+  }
+
+  input[type="submit"] {
+    width: 100%;
+  }
 }
