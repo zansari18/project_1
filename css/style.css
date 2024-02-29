@@ -30,8 +30,9 @@ label{
 	font-size: 15px;
 	font-weight:bold;
 	font-family:"Red-Hat-Display", sans-serif;
-	
+	margin-bottom:1rem;
 }
+
 ol{
 	list-style-type: none;
 	padding:0;
@@ -58,14 +59,13 @@ input[type="email"]{
 	width:75%;
 	padding:5px;
 	border: none;
-	margin-bottom:1rem;
+	margin-bottom:0.5rem;
 	
 }
 input[type="checkbox"]{
 	background-color:#FF87AB;
 	padding:0;
 	border: none;
-	margin-bottom:1rem;
 	
 	
 }
