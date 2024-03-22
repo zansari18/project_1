@@ -31,23 +31,18 @@ label{
 	font-size: 15px;
 	font-weight:bold;
 	font-family:"red-hat-display", sans-serif;
-	margin-bottom:1rem;
 }
 ol{
 	list-style-type: none;
 	padding:0;
 }
 #box{
-	
 	height: 1em;
 	width: 1em;
 	background-color:#FF87AB;
 	border:none;
 	border-radius: 4px;
-	float:left;
-	
 }
-
 p {
 	color:#083D77;
 	font-weight: bold;
@@ -69,22 +64,35 @@ input[type="email"]{
 	width:90%;
 	padding:5px;
 	border: none;
-	margin-bottom:0.5rem;
-	
 }
-
 input[type="checkbox"]{
 	background-color:#FF87AB;
 	padding:0;
 	border: none;
 	right: 6000px;
 }
+.hasjs #input-email {
+	position:relative;
+}
+.hasjs ::placeholder {
+	color: yellow;
+}
+.hasjs #input-email label {
+	color: #083DD7;
+	transition: top 1s;
+	top:26px;
+	left: 100px;
+	position: absolute;
+}
+.hasjs #input-email label.active {
+	top: -25px;
+}
+
 /*for mobile */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
   body {
     font-size: 10px;
   }
-
   #content {
     padding: 15px;
   }
