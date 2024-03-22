@@ -15,14 +15,15 @@
 </head>
 <body>
 <main id="content">
-  <form method="get" action="#null">
+  <form method="get" action="#null" autocomplete="on">
     <h1>The Sugar Society</h1>
     <p>
       Is it cake? Is it not? How do we know? What if the entire government is built out of cake? Theorists all over the world can't figure it out! Join the Sugar Society and gain top-secret info about the oddities of cake.
     </p>
     <ol>
       <li id="input-email">
-        <input type="email" name="email" id="email" pattern="^.+@.+$" placeholder="Email"/>
+	    <label id="clear" for="email">Email</label>
+        <input type="email" name="email" id="email" pattern="^.+@.+$" placeholder=" "/>
       </li>
       <li id="verification">
         <input type="checkbox" id="fbi-verification" name="fbi-verification" value="yes" />

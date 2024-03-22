@@ -75,20 +75,18 @@ input[type="checkbox"]{
 .hasjs #input-email {
   position: relative;
 }
-
 .hasjs ::placeholder {
   color: #DDD;
 }
 .hasjs #input-email label {
-  color: black;
+  color: 083D77;
   transition: top 1s;
   position: absolute;
-  top: 26px;
-  left: 100px;
+  top: 8px;
+  left:30px;
 }
-
 .hasjs #input-email label.active {
-  top: -25px;
+  top: -18px;
 } 
 /*for mobile */
 @media screen and (max-width: 320px) {
