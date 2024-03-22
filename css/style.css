@@ -82,8 +82,8 @@ input[type="checkbox"]{
   color: #083D77;
   transition: top 1s;
   position: absolute;
-  top: 0px;
-  left:50px;
+  top: 5px;
+  left:30px;
 }
 .hasjs #input-email label.active {
   top: -18px;
