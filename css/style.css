@@ -19,7 +19,7 @@ body{
 h1{
 	color:#FF87AB;
 	font-size:40px;
-	font-weight:bold;-
+	font-weight:bold;
 	margin: 0 auto;
 	margin-bottom: 1rem;
 	margin-top:1.5rem;
@@ -79,7 +79,7 @@ input[type="checkbox"]{
   color: #DDD;
 }
 .hasjs #input-email label {
-  color: 083D77;
+  color: #083D77;
   transition: top 1s;
   position: absolute;
   top: 5px;
