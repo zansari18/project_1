@@ -24,13 +24,13 @@ h1{
 	margin-bottom: 1rem;
 	margin-top:1.5rem;
     width: 90%;
-	font-family: "Anta", sans-serif;
+	font-family: "anta", sans-serif;
 }
 label{
 	color:#083D77;
 	font-size: 15px;
 	font-weight:bold;
-	font-family:"Red-Hat-Display", sans-serif;
+	font-family:"red-hat-display", sans-serif;
 	margin-bottom:1rem;
 }
 ol{
@@ -41,7 +41,7 @@ p {
 	color:#083D77;
 	font-weight: bold;
 	font-size:15px;
-	font-family:"Red-Hat-Display", sans-serif;
+	font-family:"red-hat-display", sans-serif;
 	margin-bottom:1.5rem;
 }
 input[type="submit"] {
