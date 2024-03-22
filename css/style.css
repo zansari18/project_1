@@ -44,8 +44,10 @@ ol{
 	background-color:#FF87AB;
 	border:none;
 	border-radius: 4px;
+	float:left;
 	
 }
+
 p {
 	color:#083D77;
 	font-weight: bold;
@@ -70,14 +72,12 @@ input[type="email"]{
 	margin-bottom:0.5rem;
 	
 }
-.hasjs #verification {
-	position: absolute;
-	right: 6000px;
-}	
+
 input[type="checkbox"]{
 	background-color:#FF87AB;
 	padding:0;
 	border: none;
+	right: 6000px;
 }
 /*for mobile */
 @media screen and (max-width: 480px) {
